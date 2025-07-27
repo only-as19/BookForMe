@@ -241,3 +241,56 @@ main{
         width: calc(100% + 8px);
     }
 }
+
+
+.decript{
+    display: flex;
+    justify-content: center;
+}
+
+.about-hotel{
+    /* border: 2px solid black; */
+    width: 80%;
+}
+
+.decript p{
+    font-family: "Quicksand", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(0, 0, 0,0.7);
+}
+
+.room-section1{
+    height: 330px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+.s1-room{
+    height: 100%;
+    /* border: 2px solid black; */
+    width: 30%;
+    background-color: rgb(233, 230, 230);
+    margin: 5px;
+}
+
+.s1-img{
+    height: 280px;
+    width: 100%;
+}
+
+.s1-detail{
+    padding-left: 10px;
+}
+
+.s1-detail p{
+    font-weight: 600;
+}
+
+.s1-roominfo{
+    font-family: "Quicksand", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(0, 0, 0,0.7);
+}
