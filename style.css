@@ -338,3 +338,85 @@ main{
     width: 100%;
     border-radius: 15px;
 }
+
+.service-name{
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.service-name h2{
+    padding-bottom: 5px;
+}
+
+.services{
+    height: 250px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
+
+.service-list{
+    height: 100%;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-box{
+    width: 260px;
+    height: 100%;
+    /* background-color: rgb(255, 240, 240); */
+}
+
+.service-icon{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.serviceicon{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: url(img/service.jpg);
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.serviceicon i{
+    font-size: 40px;
+  color: white;
+}
+
+.service-info{
+    font-family: "Quicksand", sans-serif
+}
+
+.service-name{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.service-detail{
+    font-family: "Quicksand", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(0, 0, 0,0.7);
+}
+
+.service-more{
+    text-align: center;
+    padding: 10px;
+}
+
+.service-more a{
+    text-decoration: none;
+    color:  rgb(164, 5, 82);
+    font-weight: 600;
+    font-size: 15px;
+}
