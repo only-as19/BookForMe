@@ -420,3 +420,55 @@ main{
     font-weight: 600;
     font-size: 15px;
 }
+
+.offers{
+    height: 615px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
+
+.offers-s1{
+    width: 90%;
+    /* background-color: aquamarine; */
+}
+
+.offers-description{
+    margin-top: 5px;
+}
+
+.offer-list{
+    margin-top: 5px;
+}
+
+.offer-list1{
+    display: flex;
+    justify-content: space-between;
+    overflow: scroll;
+}
+
+.span1{
+    font-size: 14px;
+}
+
+.span2{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.offer-list span{
+    margin: 0 3px;
+}
+
+.offer-box{
+    height: 425px;
+    width: 275px;
+    background: white;
+    margin: 5px 7px;
+}
+
+.offer-box img{
+    width: 275px;
+    height: 205px;
+    border-radius: 15px;
+}
