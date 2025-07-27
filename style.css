@@ -185,3 +185,44 @@ header{
         margin-top: 6px;
     }
 }
+
+
+main{
+    height: 1650px;
+    /* background-color: black; */
+    /* color: white; */
+}
+
+.description{
+    height: 95px;
+    /* border: 2px solid red; */
+}
+
+.text-type{
+    min-height: 40px;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 8px ;
+}
+
+.text-type span{
+    position: relative;
+}
+
+.text-type span::before{
+    content: "Welcome To BooksForMe.com";
+}
+
+.text-type span::after{
+    content: "";
+    width: calc(100% + 8px);
+    height: 100%;
+    position: absolute;
+    background-color: white;
+    border-left: 2px solid black;
+    right: -8px;
+    animation: blink 0.8s infinite,typing 20s steps(15) infinite;
+}
