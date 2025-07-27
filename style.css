@@ -472,3 +472,77 @@ main{
     height: 205px;
     border-radius: 15px;
 }
+
+
+.rating{
+    margin: 5px 0;
+}
+
+.rating p{
+    display: inline;
+    margin:0 3px;
+}
+
+.rating button{
+    padding: 3px 7px;
+    font-weight: 700;
+    font-size: 12px;
+    background-color: rgb(18, 108, 48);
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+.rate{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.review{
+    font-size: 12px;
+}
+
+.offer-name p{
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.dis p{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.684);
+}
+
+.price1{
+    width: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.money{
+    font-weight: 700;
+    font-size: 18px;
+    margin: 12px 0 1px 0;
+    /* letter-spacing: 1px; */
+    
+}
+
+.del{
+    font-size: 14px;
+    text-decoration: line-through;
+    margin: 0 5px;
+}
+
+.other-price p{
+    font-size: 12px;
+}
+
+.offer-btn button{
+    padding: 3px 10px;
+    font-weight: 700;
+    font-size: 12px;
+    background-color: rgb(18, 108, 48);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    margin: 5px 0;
+}
